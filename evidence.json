@@ -1,0 +1,41 @@
+{
+  "profile": {
+    "name": "Guilherme Richard",
+    "location": "São Paulo, Brazil",
+    "target": "Junior Backend / Systems roles — Remote Brazil",
+    "focus": ["Java", "Spring Boot", "PostgreSQL", "REST APIs", "integrations", "AI-assisted engineering"]
+  },
+  "principle": "Claims should point to verifiable proof-of-work.",
+  "evidence": [
+    {
+      "skill": "REST APIs and idempotency",
+      "problem": "Prevent duplicate effects and detect reuse of the same idempotency key with a different payload.",
+      "proof": "https://github.com/guilhermerichaard/troquim-bot/commit/2eeecbef3c20a6bdabad0aa5660743cb35103069"
+    },
+    {
+      "skill": "Domain modeling and availability",
+      "problem": "Calculate real availability from business hours, professional availability, service duration and overlapping appointments.",
+      "proof": "https://github.com/guilhermerichaard/troquim-bot/commit/a5c5ed47f8263aa6b291158b3d79cc33d4d303e0"
+    },
+    {
+      "skill": "Multi-tenant integrity",
+      "problem": "Make cross-tenant associations fail at the persistence layer instead of relying only on application code.",
+      "proof": "https://github.com/guilhermerichaard/troquim-bot/commit/b9c80a0c350868a6517da64c43473118ab769074"
+    },
+    {
+      "skill": "Deterministic testing",
+      "problem": "Remove wall-clock dependence from tests that could change outcome based on the day and time of execution.",
+      "proof": "https://github.com/guilhermerichaard/troquim-bot/commit/97ca602a33dd8feba5baada73e75ca51b1bf666f"
+    }
+  ],
+  "verified_stack": {
+    "source": "https://github.com/guilhermerichaard/troquim-bot/blob/main/pom.xml",
+    "items": ["Java 21", "Spring Boot 4.1", "Spring Security", "JPA", "PostgreSQL", "Flyway", "Testcontainers", "Maven"]
+  },
+  "next_proof_of_work": {
+    "name": "BR Integration Lab",
+    "status": "planned",
+    "goal": "Demonstrate Brazil-native integration engineering without presenting future work as completed.",
+    "planned_signals": ["webhook retries", "idempotency", "replay", "BRL", "America/Sao_Paulo", "data minimization", "audit trail", "AI triage with human fallback"]
+  }
+}
